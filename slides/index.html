@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Web AppBuilder for ArcGIS: Advanced Development Tools and Techniques</title>
+
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/dev-summit-2019.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+    <!-- for icons -->
+    <link rel="stylesheet" href="reveal.js/lib/font/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.min.css">
+
+    <!-- Custom Styles for our presentation -->
+    <style>
+      .reveal section img {
+        border: 0px;
+        background: none;
+        box-shadow: none;
+      }
+      /* overlay header */
+      .reveal h4 {
+          background: rgba(0,0,0,.8);
+          color:  #fff;
+          position: fixed;
+          width: calc(100% + 150px);
+          left: 0;
+          bottom: 20px;
+          margin-left: -75px;
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 1.6em;
+          line-height: 1.8em;
+      }
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Use external markdown resource, separate slides by ---; separate vertical slides by ----- -->
+
+        <section data-background="reveal.js/img/2019/devsummit/bg-1.png" data-background-size="cover" style="padding-left: 80px;">
+          <h1 style="text-align: left; font-size: 80px;">Web AppBuilder for ArcGIS: Advanced Development Tools and Techniques</h1>
+          <p style="text-align: left; font-size: 30px; text-transform: uppercase;">George Bochenek and Gavin Rehkemper</p>
+          <p style="text-align: left; font-size: 30px; text-transform: uppercase;"><a href="http://esriurl.com/wabtools2019">esriurl.com/wabtools2019</a></p>
+        </section>
+
+
+        <section data-markdown="about-us.md" data-background="reveal.js/img/2019/devsummit/bg-4.png" class="center"></section>
+        <section data-markdown="agenda.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" class="center"></section>
+
+        <!-- Gavin: -->
+        <section data-markdown="wab.md" data-background="reveal.js/img/2019/devsummit/bg-3.png" class="center"></section>
+        <section data-markdown="wab-as-a-framework.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" class="center"></section>
+
+
+        <!-- George: -->
+        <section data-markdown="build-for-production.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" class="center" data-separator-notes="^Note:"></section>
+        <section data-markdown="best-practices/index.md" data-background="reveal.js/img/2019/devsummit/bg-6.png" class="center" data-separator-notes="^Note:"></section>
+        <section data-markdown="best-practices/source-control.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" class="center" data-separator-notes="^Note:"></section>
+        <section data-markdown="best-practices/testing.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" class="center" data-separator-notes="^Note:"></section>
+        <section data-markdown="best-practices/wrapping.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" style="text-align:left;" data-separator-notes="^Note:"></section>
+
+        <!-- TODO: Fill with slides.  -->
+        <!-- Old slides for reference: https://github.com/gavinr/web-appbuilder-tools-techniques-dev-summit-2017/blob/master/src/slides/index.html#L79 -->
+        
+        <!-- END Slides: -->
+        <section data-markdown="resources.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" style="text-align:left"></section>
+        <section data-markdown="thank-you.md" data-background="reveal.js/img/2019/devsummit/bg-2.png" class="center"></section>
+        <section data-markdown data-background="reveal.js/img/2019/devsummit/bg-rating.png"></section>
+        <section data-markdown data-background="reveal.js/img/2019/devsummit/bg-esri.png"></section>
+      </div>
+    </div>
+
+    <script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        history: true,
+        // center: false, // don't center vertically - it makes title jump from page to page
+
+
+        // This height and width are here for the left-aligned title slide. 
+        // If you do not want that, you can remove these two settings and
+        // the presentation will be closer to OOTB-Reveal.js:
+        width: '100%',
+        height: '100%',
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+        maxScale: 1.5,
+
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        transitionSpeed: 'fast', 
+
+        dependencies: [
+          { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
