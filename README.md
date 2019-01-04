@@ -16,3 +16,20 @@ This session picks up where the Customizing and Extending Web AppBuilder session
  * [WAB Widget Search](http://gavinr.github.io/wab-widget-search)
  * [Widget Wrapping and Unit Test Example](https://github.com/gbochenek/wab-test-example)
  * [WAB Awesome list](https://hhkaos.github.io/awesome-arcgis/arcgis/products/web-appbuilder/)
+
+## Development
+
+To push slides to gh-pages:
+
+```
+npm i
+npm run gh-pages
+```
+
+To run the slide deck:
+
+```
+cd slides/reveal.js
+npm i
+grunt serve
+```

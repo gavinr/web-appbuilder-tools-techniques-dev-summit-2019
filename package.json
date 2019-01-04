@@ -1,0 +1,27 @@
+{
+  "name": "web-appbuilder-tools-techniques-dev-summit-2019",
+  "version": "1.0.0",
+  "description": "Esri Dev Summit 2019 Presentation \"Web AppBuilder for ArcGIS: Advanced Development Tools and Techniques\"",
+  "main": "slides/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gh-pages": "node_modules/.bin/gh-pages -d slides --remove \"reveal.js/node_modules\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinr/web-appbuilder-tools-techniques-dev-summit-2019.git"
+  },
+  "keywords": [
+    "web-appbuilder",
+    "devsummit",
+    "2019"
+  ],
+  "author": "Gavin Rehkemper and George Bochenek",
+  "bugs": {
+    "url": "https://github.com/gavinr/web-appbuilder-tools-techniques-dev-summit-2019/issues"
+  },
+  "homepage": "https://github.com/gavinr/web-appbuilder-tools-techniques-dev-summit-2019#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
