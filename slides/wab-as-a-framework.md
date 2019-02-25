@@ -59,14 +59,11 @@ Note: Image from https://www.flickr.com/photos/usnavy/8157932721 (US Government 
 
 ---
 
-<!-- .slide: data-background="reveal.js/img/2019/devsummit/bg-7.png" data-background-size="2000px" data-background-color="#19273E" -->
-## New Features
+<!-- .slide: data-background="reveal.js/img/2019/devsummit/bg-6.png" data-background-size="2000px" data-background-color="#19273E" -->
+## In 2018
 
-- TypeScript widgets
-- Builds
-- LiveReload
-- Bug Fixes and Minor improvments
-Note: New Features: TypeScript, LiveReload, Builds
+- Bug Fixes
+- TypeScript improvements 
 
 ---
 

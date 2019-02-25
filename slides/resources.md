@@ -1,7 +1,13 @@
 ## Related Talks
 
-*** zzzzzz ***
-* todo - details
+*** Friday ***
+* ArcGIS API for JavaScript: Tips and Tricks for Developing and Debugging Apps
+  * Primrose B, 10am
+* Web Editing with the ArcGIS API for JavaScript
+  * Primrose A, 1pm
+
+*** Recording ***
+* Web AppBuilder for ArcGIS: A Deep Dive into Enterprise Deployment
 
 ---
 
@@ -12,7 +18,7 @@
 - Unit Testing Example: [https://github.com/gbochenek/wab-test-example](https://github.com/gbochenek/wab-test-example)
 - Finding Great Widgets
   - Geonet: [Web AppBuilder Custom Widgets Group](https://geonet.esri.com/groups/web-app-builder-custom-widgets)
-  - [WAB Widget Search](http://gavinr.github.io/wab-widget-search)
+  - [WAB Widget Search](https://web-appbuilder-widget-search.surge.sh/)
   - [ArcGIS CodeSharing](https://codesharing.arcgis.com/)
 - Documentation, Download, and Support:  
     - [developers.arcgis.com/web-appbuilder](https://developers.arcgis.com/web-appbuilder/)
