@@ -6,7 +6,7 @@ This session picks up where the Customizing and Extending Web AppBuilder session
 ## Useful links
  * Schedule: [Thursday, 3/7/2019, 5:30 PM, Catalina/Madera](https://devsummit2019.schedule.esri.com/schedule/2062154902)
  * [Interactive Slides](https://gavinr.github.io/web-appbuilder-tools-techniques-dev-summit-2019/index.html) or [PDF](https://github.com/gavinr/web-appbuilder-tools-techniques-dev-summit-2019/blob/master/slides.pdf)
- * Talk Recording (will be posted after the conference)
+ * [Talk Recording](https://youtu.be/3gp0vAVH724)
 
 ## Web AppBuilder Resources
  * [Web AppBuilder Generator](https://github.com/Esri/generator-esri-appbuilder-js)
